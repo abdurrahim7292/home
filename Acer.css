@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+}
+.menu {
+    width: 600px;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+}
+.menu img {
+    width: 600px;
+    height: 600px;
+}
+.menu2 {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: rgba(0, 0, 0, 0.53);
+    transition: all 3s linear;
+}
+.menu2 h2 {
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 2em;
+    font-family: 'ALGERIAN', sans-serif;
+}
+.menu2 h3 {
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 2em;
+    font-family: 'ALGERIAN', sans-serif;
+}
+.menu:hover .menu2 {
+    left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
