@@ -1,0 +1,654 @@
+* {
+    margin: 0;
+}
+.menu {
+    width: 100%;
+    min-height: 127px;
+    padding: 31px 0;
+    box-sizing: border-box;
+    background-color: #005F8F;
+}
+.post {
+    display: table;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1220px;
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+.block {
+    height: 63px;
+    display: table-cell;
+    vertical-align: top;
+    width: 33.3%;
+    min-width: 360px;
+}
+.logo {
+    float: left;
+    margin-right: 29px;
+    height: 63px;
+    width: 57px;
+    border: 0;
+}
+.site {
+    margin-top: 8px; 
+}
+.name {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: "Monotype Corsiva";
+}
+.slogan {
+    font-size: 20px;
+    padding: 0;
+    margin: 3px 0 0 0;
+    line-height: 1;
+    color: white;
+    font-family: "Monotype Corsiva";
+}
+.social {
+    width: 33.3%;
+    display: table-cell;
+    margin-left: 175px;
+    vertical-align: top;
+    text-align: center;
+    position: relative;
+    top: 7px;
+}
+.link {
+    margin-right: 18px;
+    margin-top: 13px;
+}
+.nike {
+    width: 34px;
+    height: 34px;
+    box-shadow: 0 0 8px -5px white;
+    transition: all 0.7s linear;
+}
+.nike:hover {
+    box-shadow: 0 0 8px -5px white;
+    transform: rotate(-360deg);
+}
+.doc {
+    margin-right: 18px;
+    margin-top: 13px;
+}
+.ufc {
+    width: 34px;
+    height: 34px;
+    box-shadow: 0 0 8px -5px white;
+    transition: all 0.7s linear; 
+}
+.ufc:hover {
+    box-shadow: 0 0 8px -5px white;
+    transform: rotate(-360deg);
+}
+.adic {
+    margin-right: 18px;
+    margin-top: 13px;
+}
+.asics {
+    width: 34px;
+    height: 34px;
+    box-shadow: 0 0 8px -5px white;
+    transition: all 0.9s linear;
+}
+.asics:hover {
+    box-shadow: 0 0 8px -5px white;
+    transform: rotate(-360deg);
+}
+.root {
+    width: 33.4%;
+    display: table-cell;
+    position: relative;
+    vertical-align: top;
+    text-align: right;
+}
+.search-form {
+    margin-top: 20px;
+    position: relative;
+    text-align: right;
+}
+.search-input {
+    width: 270px;
+    height: 33px;
+    padding: 1px 28px 0 15px;
+    font-size: 14px;
+    border-radius: 3px;
+    background-clip: padding-box;
+    outline: none;
+}
+.btn {
+    width: 16px;
+    height: 16px;
+    background: url(http://htmlbook.ru/themes/hb/img/find.png) no-repeat;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 9px;
+    right: 12px;
+} 
+.tiha {
+    display: none;
+}
+.page__main {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    display: table;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1220px;
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.content {
+    max-width: 835px;
+    display: table-cell;
+    vertical-align: top;
+    padding-right: 22px;
+}
+.menu_top {
+    margin: 17px 0 35px -14px;
+}
+.top-q {
+    background-color: #005F8F;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    padding: 6px 14px;
+    border-radius: 3px;
+    font-family: "Corbel";
+}
+.top-w {
+    color: #005F8F;
+    display: inline-block;
+    text-decoration: none;
+    padding: 6px 14px;
+    border-radius: 3px;
+    background-clip: padding-box;
+    font-family: "Corbel";
+}
+.top-e {
+    display: inline-block;
+    background-color: #9B9B9E;
+    border-radius: 50%;
+    background-clip: padding-box;
+    width: 4px;
+    height: 4px;
+    vertical-align: middle;
+}
+.top-r {
+    color: #005F8F;
+    display: inline-block;
+    text-decoration: none;
+    padding: 6px 14px;
+    border-radius: 3px;
+    background-clip: padding-box;
+    font-family: "Corbel";
+}
+.top-t {
+    display: inline-block;
+    background-color: #9B9B9E;
+    border-radius: 50%;
+    background-clip: padding-box;
+    width: 4px;
+    height: 4px;
+    vertical-align: middle;
+}
+.top-y {
+    color: #005F8F;
+    display: inline-block;
+    text-decoration: none;
+    padding: 6px 14px;
+    border-radius: 3px;
+    background-clip: padding-box;
+    font-family: "Corbel";
+}
+.top-u {
+    background-color: #9B9B9E;
+    display: inline-block;
+    border-radius: 50%;
+    background-clip: padding-box;
+    width: 4px;
+    height: 4px;
+    vertical-align: middle;
+}
+.top-i {
+    color: #005F8F; 
+    display: inline-block;
+    text-decoration: none;
+    padding: 6px 14px;
+    border-radius: 3px;
+    background-clip: padding-box;
+    font-family: "Corbel";
+}
+.top-o {
+    background-color: #9B9B9E;
+    display: inline-block;
+    border-radius: 50%;
+    background-clip: padding-box;
+    width: 4px;
+    height: 4px;
+    vertical-align: middle;
+}
+.top-p {
+    color: #005F8F; 
+    display: inline-block;
+    text-decoration: none;
+    padding: 6px 14px;
+    border-radius: 3px;
+    background-clip: padding-box;
+    font-family: "Corbel";
+}
+.top-a {
+    background-color: #9B9B9E;
+    display: inline-block;
+    border-radius: 50%;
+    background-clip: padding-box;
+    width: 4px;
+    height: 4px;
+    vertical-align: middle;
+}
+.top-s {
+    color: #005F8F; 
+    display: inline-block;
+    text-decoration: none;
+    padding: 6px 14px;
+    border-radius: 3px;
+    background-clip: padding-box;
+    font-family: "Corbel";
+}
+.top-d {
+    background-color: #9B9B9E;
+    display: inline-block;
+    border-radius: 50%;
+    background-clip: padding-box;
+    width: 4px;
+    height: 4px;
+    vertical-align: middle;
+}
+.top-f {
+    color: #005F8F; 
+    display: inline-block;
+    text-decoration: none;
+    padding: 6px 14px;
+    border-radius: 3px;
+    background-clip: padding-box;
+    font-family: "Corbel";
+}
+.top-h {
+    color: #005F8F;
+    font-size: 28px;
+    font-weight: bold;
+    margin: .67em 0;
+    font-family: "Corbel";
+}
+.top-j {
+    line-height: 1.625;
+}
+.top-k {
+    margin: .8em 0;
+    color: #000657;
+    font-family: "Corbel";
+}
+.top-l {
+    color: #9E0000;
+}
+.top-z {
+    margin: .8em 0;
+    color: #000657;
+    font-family: "Corbel";
+}
+.top-x {
+    color: #9E0000;
+}
+.top-c {
+    margin: 30px 0;
+}
+.top-v {
+    margin-bottom: 30px;
+    border-radius: 8px;
+    background-clip: padding-box;
+    padding: 40px;
+    box-shadow: 0 0 2px 1px rgba(204,208,213,0.75);
+}
+.to-to {
+    margin: .8em 0;
+    color: #000657;
+    font-family: "Corbel";
+}
+.go {
+    color: #9E0000;
+}
+.top-b {
+    color: #005F8F;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.3;
+    padding: 0;
+    margin: 0 0 20px;
+    font-family: "Corbel";
+}
+.top-n {
+    color: inherit;
+}
+.top-m {
+    margin: 25px 0 30px;
+    line-height: 1.625;
+}
+.top-qw {
+    margin-bottom: 30px;
+    border-radius: 8px;
+    background-clip: padding-box;
+    padding: 40px;
+    box-shadow: 0 0 2px 1px rgba(204,208,213,0.75);
+}
+.top-er {
+    color: #005F8F;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.3;
+    padding: 0;
+    margin: 0 0 20px;
+    font-family: "Corbel";
+}
+.top-ty {
+    color: inherit;
+    font-family: "Corbel";
+}
+.top-ui {
+    margin: 22px 0;
+    font-size: 14px;
+    color: #9199a2;
+    font-weight: bold;
+    line-height: 2.2;
+}
+.top-op {
+    display: inline;
+    font-style: normal;
+    margin-right: 10px;
+}
+.top-df {
+    display: inline-block;
+    background: #9199a2;
+    border-radius: 50%;
+    background-clip: padding-box;
+    width: 4px;
+    height: 4px;
+    vertical-align: middle;
+}
+.top-gh {
+    font-size: 14px;
+    color: #9199a2;
+    font-weight: bold;
+    line-height: 2.2;
+}
+.top-jk {
+    color: #378dcc;
+    text-decoration: none;
+    border-bottom: 1px solid #a4cdeb;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.top-as {
+    margin-right: 10px;
+    display: inline-block;
+    background: #9199a2;
+    border-radius: 50%;
+    background-clip: padding-box;
+    width: 4px;
+    height: 4px;
+    vertical-align: middle;
+}
+.top-lz {
+    font-size: 14px;
+    color: #9199a2;
+    font-weight: bold;
+    line-height: 2.2;
+}
+.top-xc {
+    margin: 25px 0 30px;
+    line-height: 1.625;
+}
+.top-vb {
+    margin: .8em 0;
+    color: #000657;
+    font-family: "Corbel";
+}
+.top-nm {
+    margin: .8em 0;
+    color: #000657;
+    font-family: "Corbel";
+
+}
+.top-qwe {
+    margin-bottom: 30px;
+    border-radius: 8px;
+    background-clip: padding-box;
+    padding: 40px;
+    box-shadow: 0 0 2px 1px rgba(204,208,213,0.75);
+}
+.top-rty {
+    font-size: 28px;
+    font-weight: bold;
+    color: #005F8F;
+    line-height: 1.3;
+    padding: 0;
+    margin: 0 0 20px;
+    font-family: "Corbel";
+}
+.top-uio {
+    color: inherit;
+    font-family: "Corbel";
+}
+.top-pas {
+    margin: 22px 0;
+    font-size: 14px;
+    color: #9199a2;
+    font-weight: bold;
+    line-height: 2.2;
+}
+.top-dfg {
+    display: inline;
+    font-style: normal;
+    margin-right: 10px;
+}
+.top-hjk {
+    display: inline-block;
+    background: #9199a2;
+    border-radius: 50%;
+    background-clip: padding-box;
+    width: 4px;
+    height: 4px;
+    vertical-align: middle;
+}
+.top-lzx {
+    font-size: 14px;
+    color: #9199a2;
+    font-weight: bold;
+    line-height: 2.2;
+}
+.top-cvb {
+    color: #378dcc;
+    text-decoration: none;
+    border-bottom: 1px solid #a4cdeb;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.top-nmq {
+    margin-right: 10px;
+    display: inline-block;
+    background: #9199a2;
+    border-radius: 50%;
+    background-clip: padding-box;
+    width: 4px;
+    height: 4px;
+    vertical-align: middle;
+}
+.top-wer {
+    margin: 0 10px;
+}
+.top-tyu {
+    margin: 25px 0 30px;
+    line-height: 1.625;
+}
+.top-iop {
+    margin: .8em 0;
+    color: #000657;
+    font-family: "Corbel";
+}
+.top-asd {
+    margin: .8em 0;
+    color: #000657;
+    font-family: "Corbel";
+}
+.top-fgh {
+    margin: .8em 0;
+    color: #000657;
+    font-family: "Corbel";
+}
+.top-jkl {
+    margin: .8em 0;
+    color: #000657;
+    font-family: "Corbel";
+}
+.top-zxc {
+    margin: .8em 0;
+    color: #000657;
+    font-family: "Corbel";
+}
+.top-mqwe {
+    margin-bottom: 0;
+    border-radius: 8px;
+    background-clip: padding-box;
+    padding: 40px;
+    box-shadow: 0 0 2px 1px rgba(204,208,213,0.75);
+}
+.top-rtyu {
+    font-size: 28px;
+    font-weight: bold;
+    color: #005F8F;
+    line-height: 1.3;
+    padding: 0;
+    margin: 0 0 20px;
+    font-family: "Corbel";
+}
+.top-sdfg {
+    margin: 25px 0 30px;
+    line-height: 1.625;
+}
+.top-hjkl {
+    margin: .8em 0;
+    color: #000657;
+    font-family: "Corbel";
+}
+strong {
+    color: #9E0000;
+}
+.button {
+    z-index: 5;
+    width: 70px;
+    height: 50px;
+    background-color: #005F8F;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    opacity: 0.6;
+}
+.button p {
+    text-align: center;
+    margin: 13px 0 0 0;
+}
+.button p a {
+    color: white;
+    text-decoration: none;
+}
+.go-to-go {
+    min-height: 127px;
+    padding: 31px 0;
+    background: #005F8F;
+    box-sizing: border-box;
+    width: 100%;
+    display: table;
+}
+.go-time {
+    margin: 0 auto;
+    max-width: 1220px;
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+.go-top-go {
+    width: 300px;
+    font-size: 16px;
+    color: #4e5f6f;
+    box-sizing: border-box;
+    vertical-align: top;
+    display: table-cell;
+}
+.speed {
+    text-decoration: none;
+    color: white;
+    font-family: "Corbel";
+}
+.game {
+    margin: 0 10px 0 0;
+    width: 30px;
+    height: 30px;
+}
+.genius {
+    width: 300px;
+    font-size: 16px;
+    color: #4e5f6f;
+    box-sizing: border-box;
+    vertical-align: top;
+    display: table-cell;
+}
+.gx-gaming {
+    text-decoration: none;
+    color: white;
+    font-family: "Corbel";
+}
+.tik-top {
+    margin: 0 10px 0 0;
+    width: 30px;
+    height: 30px;
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
